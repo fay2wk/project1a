@@ -1,0 +1,91 @@
+@import {
+    url('./reset.css')}
+
+{}
+
+html, body {
+  background: black;
+  color: white;
+}
+
+* {
+  font-family: Tahoma;
+}
+
+button {
+  height: 80px;
+  width: 150px;
+  margin: 5px;
+  background: whitesmoke;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  border: ridge;
+  padding-bottom: 15px;
+}
+
+.containerScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.scoreBox {
+  margin: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid white;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.qnsBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.notice {
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  display: none;
+}
+
+#game-over {
+  display: none
+}
+
+show {
+  display: block;
+  width: 150px;
+  height: 60px;
+  background: lightblue;
+  color: black;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px white;
+}
