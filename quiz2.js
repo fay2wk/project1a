@@ -114,18 +114,11 @@ function updateDisplay () {
 $(function () {
   $('button').click(function () {
     playTurn($(this).index())
+    // if (currentQuestion = numberOfQuestions) {
+    //   $('.game-over').addClass('show')
+    // }
     updateDisplay()
   })
   // update the display for the first time
   updateDisplay()
-})
-
-$(function () {
-  if (isGameOver()) {
-    $('.bottom').appendButton('Replay?')
-    $('.reset').addClass('show')
-    $('.reset').click(function () {
-      restart()
-    })
-  }
 })
